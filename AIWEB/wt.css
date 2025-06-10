@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 35, 77, 0.65), rgba(9, 0, 77, 0.65)), url("https://w0.peakpx.com/wallpaper/390/568/HD-wallpaper-artificial-intelligence-background-vectors-stock-psd-vision.jpg");
+  padding: 10px 8%; /* Fixed padding syntax */
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  color: #fff;
+  padding: 10px;
+}
+
+.content {
+  background-color: rgb(57, 55, 53);
+  border-radius: 5px;
+  width: 275px;
+}
+
+.content li {
+  color: rgb(80, 217, 255);
+}
+
+.c2 {
+  color: aqua;
+  background-color: rgb(57, 55, 53);
+  border-radius: 5px;
+  width: 275px;
+}
+
+.c3 {
+  display: flex;
+  column-gap: 10px;
+}
+
+h1 {
+  position: relative;
+  font-size: 6em;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008); /* FIXED typo: 'rerflect' → 'reflect', 'trasparent' → 'transparent' */
+  line-height: 0.7em; /* FIXED typo: was 0.702m */
+  outline: none;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+
+  100% {
+    color: #fff;
+    text-shadow:
+      0 0 10px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 100px #03bcf4;
+  }
+}
